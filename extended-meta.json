@@ -1,28 +1,20 @@
 {
-       "info": {
-        "url_png_icon_64x64": "http(s) url to pool icon; png format; not animated; max 40kb",
-        "url_png_logo": "http(s) url to pool logo; png format; not animated; max 50kb",
-        "location": "USA",
-        "social": {
-            "twitter_handle": "MnstrPool",
-            "telegram_handle": "",
-            "facebook_handle": "",
-            "youtube_handle": "",
-            "twitch_handle": "",
-            "discord_handle": "",
-            "github_handle": ""
-        },
-        "company": {
-            "name": "",
-            "addr": "",
-            "city": "",
-            "country": "USA",
-            "company_id": "",
-            "vat_id": ""
-        },
-        "about": {
-            "me": "...",
-            "server": "",
-            "company": "..."
-        }
+  "info": {
+    "url_png_icon_64x64": "",
+    "url_png_logo": "",
+    "location": "United States",
+    "social": {
+      "twitter_handle": "MnstrPool",
+      "telegram_handle": "",
+      "youtube_handle": ""
+    },
+    "about": {
+      "me": "",
+      "server": "",
+      "company": ""
     }
+  },
+  "my-pool-ids": {
+    "0": ""
+  }
+}
