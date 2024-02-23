@@ -1,8 +1,8 @@
 #!/bin/bash
 
-find /opt/cardano/cnode/scripts/ -name "*bkp*" -exec rm {} 
+find /opt/cardano/cnode/scripts/ -type f -name "*bkp*" -delete
 
-find /opt/cardano/cnode/logs/archive/ -mtime +1 -name “*.json” -print -exec /bin/rm {} 
+find /opt/cardano/cnode/logs/archive -mtime +1 -name "*.json" -delete
 
 journalctl --rotate
 
